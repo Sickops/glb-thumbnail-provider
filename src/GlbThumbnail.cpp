@@ -9,6 +9,7 @@
 #include <shlwapi.h>
 #include <thumbcache.h>
 #include <wincodec.h>
+#include <olectl.h>
 
 #include <new>
 #include <string>
