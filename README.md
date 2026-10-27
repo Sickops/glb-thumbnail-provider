@@ -11,8 +11,6 @@ comme c'est déjà le cas pour les `.3mf`.
 
 ![Aperçu](docs/preview.png)
 
-*(Rendu de `samples/test.glb`. Remplacez cette image par une capture de votre Explorateur.)*
-
 ## Installation (utilisateurs)
 
 1. Ouvrez la page [**Releases**](../../releases/latest).
@@ -89,15 +87,6 @@ Prérequis : Visual Studio 2019/2022 (ou Build Tools) avec la charge **Développ
 3. `build\install.bat` en administrateur pour tester.
 4. Installateur : installer [Inno Setup 6.3+](https://jrsoftware.org/isdl.php), puis `ISCC installer\installer.iss` → `dist\`.
 
-Test du moteur de rendu seul (sans Windows) :
-```
-g++ -std=c++17 -O2 tests/render_test.cpp -o render_test
-./render_test samples/test.glb preview.ppm 256
-```
-
-## Publier une version (mainteneurs)
-Mettez à jour `CHANGELOG.md`, puis : `git tag v1.1.0 && git push origin v1.1.0`.
-GitHub Actions compile la DLL, génère l'installateur, l'archive portable et `SHA256SUMS.txt`, et crée la release.
 
 ## Contribuer
 Issues et pull requests bienvenues, en particulier : support Draco/meshopt, `.gltf` externes, KTX2, normal maps.
