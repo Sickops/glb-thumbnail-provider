@@ -1,0 +1,12 @@
+build/
+dist/
+Output/
+*.obj
+*.exp
+*.lib
+*.pdb
+*.ilk
+*.ppm
+*.exe
+*.dll
+.vs/
