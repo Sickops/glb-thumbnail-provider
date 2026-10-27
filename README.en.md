@@ -11,11 +11,9 @@ just like Explorer already does for `.3mf` files.
 
 ![Preview](docs/preview.png)
 
-## 🤖 Projet développé avec l'IA / AI-Generated Project
+## 🤖 AI-Generated Project
 
-**FR :** Ce projet a été **entièrement conçu, développé et débogué avec l'aide de l'Intelligence Artificielle**. De la structure de l'extension Shell Windows (COM / `IThumbnailProvider`) au moteur de rendu 3D, en passant par les scripts d'installation Inno Setup et la CI/CD GitHub Actions, l'ensemble du code a été généré et optimisé par IA.
-
-**EN:** This project was **entirely designed, developed, and debugged with the assistance of Artificial Intelligence**. From the Windows Shell Extension structure (COM / `IThumbnailProvider`) to the 3D rendering engine, Inno Setup installer scripts, and GitHub Actions CI/CD pipeline, the code was fully generated and optimized by AI.
+This project was **entirely designed, developed, and debugged with the assistance of Artificial Intelligence**. From the Windows Shell Extension structure (COM / `IThumbnailProvider`) to the 3D rendering engine, Inno Setup installer scripts, and GitHub Actions CI/CD pipeline, the code was fully generated and optimized by AI.
 
 ## Install
 1. Go to [**Releases**](../../releases/latest).
