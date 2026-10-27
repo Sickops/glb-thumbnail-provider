@@ -11,6 +11,10 @@ comme c'est déjà le cas pour les `.3mf`.
 
 ![Aperçu](docs/preview.png)
 
+## 🤖 Projet développé avec l'IA
+Ce projet a été **entièrement conçu, développé et débogué avec l'aide de l'Intelligence Artificielle**. 
+De la structure de l'extension Shell Windows (COM / `IThumbnailProvider`) au moteur de rendu 3D, en passant par les scripts d'installation Inno Setup et les workflows GitHub Actions, le code a été généré et optimisé par IA.
+
 ## Installation (utilisateurs)
 
 1. Ouvrez la page [**Releases**](../../releases/latest).
